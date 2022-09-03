@@ -1,0 +1,20 @@
+{
+	"editor.fontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.semanticHighlighting.enabled": true,
+	"editor.experimental.pasteActions.enabled": true,
+	"editor.stickyScroll.enabled": true,
+	"editor.formatOnSave": true,
+	"editor.fastScrollSensitivity": 5,
+	"rust-analyzer.rustfmt.rangeFormatting.enable": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.codeLens": true,
+	"editor.codeLensFontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
+	"editor.semanticTokenColorCustomizations": {
+		"rules": {
+			"*.mutable": {
+				"fontStyle": "underline"
+			}
+		}
+	}
+}
