@@ -1,5 +1,5 @@
 {
-	"editor.fontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'Fira Code', 'Cascadia Code', 'Jetbrains Mono', Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.semanticHighlighting.enabled": true,
 	"editor.experimental.pasteActions.enabled": true,
@@ -10,11 +10,28 @@
 	"editor.bracketPairColorization.enabled": true,
 	"editor.codeLens": true,
 	"editor.codeLensFontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
+	"workbench.colorTheme": "Atom One Dark",
 	"editor.semanticTokenColorCustomizations": {
 		"rules": {
 			"*.mutable": {
 				"fontStyle": "underline"
-			}
+			},
+			"*.async": {
+				"fontStyle": "italic"
+			},
+			"*.clojure": {
+				"fontStyle": "italic underline"
+			},
+			"*.attribute": {
+				"italic": false,
+				"fontStyle": "bold"
+			},
+			"*.function": {
+				"fontStyle": "bold"
+			},
 		}
-	}
+	},
+	"cSpell.words": [
+		"minigrep"
+	]
 }
